@@ -1,5 +1,7 @@
 # jspot
 
+This is a fork of [jspot](https://github.com/praekelt/jspot) because it seems unmaintained since the leaving of its principal maintainer from [praekelt](https://github.com/praekelt)
+
 Extracts gettext strings from Javascript files into pot files.
 
 ```
@@ -20,11 +22,11 @@ _.ngettext('bar', 'bars', 23);
 ## How to use
 
 ```
-$ jspot --help                      
+$ jspot --help
 
 Usage: jspot <command>
 
-command     
+command
   extract     Extract source from javascript files into pot files
   json        Convert po files to Jed-compatible json files (using po2json)
 
